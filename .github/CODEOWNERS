@@ -1,0 +1,46 @@
+# Global Owners
+# These owners will be the default owners for everything in the repo.
+# Unless a later match takes precedence, these global owners will be
+# requested for review when someone opens a pull request.
+* @maruthi.pullagura
+
+# Core Server Components
+/src/claude_mcp_server/ @maruthi.pullagura
+
+# Configuration and Setup
+/scripts/ @maruthi.pullagura
+/pyproject.toml @maruthi.pullagura
+/config/ @maruthi.pullagura
+
+# Examples and Extensions
+/examples/ @maruthi.pullagura
+
+# Tests
+/tests/ @maruthi.pullagura
+
+# Documentation
+/README.md @maruthi.pullagura
+/CLAUDE.md @maruthi.pullagura
+/.github/ @maruthi.pullagura
+
+# Dependencies and Build
+/requirements*.txt @maruthi.pullagura
+/setup.py @maruthi.pullagura
+/setup.cfg @maruthi.pullagura
+
+# CI/CD and Automation
+/.github/workflows/ @maruthi.pullagura
+
+# Security and Compliance
+/.github/SECURITY.md @maruthi.pullagura
+
+# Root Configuration Files
+/.gitignore @maruthi.pullagura
+/.gitattributes @maruthi.pullagura
+/.editorconfig @maruthi.pullagura
+
+# MCP Specific Components
+# Add additional reviewers for MCP protocol changes
+/src/claude_mcp_server/server.py @maruthi.pullagura
+/examples/client_example.py @maruthi.pullagura
+/examples/extended_server.py @maruthi.pullagura
